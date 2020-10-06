@@ -1,10 +1,29 @@
+/*
+основной цвет текста #212121
+вторичный цвет текста #57575
+цвет акцента  #2196f3
+вторичный цвет акцента #ffffff
+цвет фона неактивніх кнопок  #f5f4fa
+цвет контактов  rgba(255, 255, 255, 0.6);
+*/
+
+:root {
+  --primary-background-color: #2f303a;
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+  --wite-color: #ffffff;
+  --buttons-color: #f5f4fa;
+  --contacts-rgba: rgba(255, 255, 255, 0.6);
+}
 body {
   font-family: Roboto;
   font-style: normal;
+  color: var(--primary-text-color);
 }
 
 .logo {
-  color: #2196f3;
+  color: var(--accent-color);
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
@@ -14,18 +33,16 @@ body {
 }
 
 .logo-end {
-  color: #000000;
+  color: var(--primary-text-color);
   font-family: Raleway;
-  font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
 }
 .logo-end-footer {
-  color: #ffffff;
+  color: var(--wite-color);
   font-family: Raleway;
-  font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
@@ -45,7 +62,7 @@ body {
   height: 600px;
   left: 0px;
   top: 80px;
-  background: #2f303a;
+  background: var(--primary-background-color);
 }
 h1 {
   width: 696px;
@@ -58,7 +75,7 @@ h1 {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--wite-color);
 }
 
 .order-link {
@@ -66,7 +83,7 @@ h1 {
   text-decoration: none;
   width: 200px;
   height: 50px;
-  background: #2196f3;
+  background: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   font-weight: bold;
@@ -75,7 +92,7 @@ h1 {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--wite-color);
 }
 
 ul {
@@ -88,19 +105,18 @@ ul {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--primary-text-color) 1;
 }
 .navigation.contacts {
-  color: #757575;
+  color: var(--secondary-text-color);
 }
-.navigation:hover {
-  color: #2196f3;
-}
+.navigation:hover,
 .navigation:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
+
 .button {
-  background: #f5f4fa;
+  background: var(--buttons-color);
   border-radius: 4px;
   border: 0px;
   font-weight: 500;
@@ -108,41 +124,32 @@ ul {
   line-height: 26px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--primary-text-color);
 }
 
-.button:hover {
-  background: #2196f3;
-  border: 0px;
-}
-
-.button:focus {
-  background: #2196f3;
-  border: 0px;
-}
-.button:active {
-  background: #2196f3;
-  border: 0px;
-}
-
+.button:hover,
+.button:focus,
+.button:active,
 .button:visited {
-  background: #2196f3;
-  border: 0px;
+  background: var(--accent-color);
+}
+
+.cards-items {
+  color: var(--secondary-text-color);
 }
 
 .footer-bg {
   width: 1600px;
   height: 252px;
   left: 0px;
-  top: 1628px;
-  background: #2f303a;
+  background: var(--primary-background-color);
 }
 
 .footer-adress {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  color: #ffffff;
+  color: var(--wite-color);
 }
 .footer-adress-text {
   padding-top: 60px;
@@ -155,5 +162,5 @@ ul {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--contacts-rgba);
 }
