@@ -4,32 +4,41 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Главная</title>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
     <!-- Shapka -->
     <header>
       <nav>
-        <a href="/"> <span>Web</span>Studio</a>
+        <a class="logo-link" href="/">
+          <span class="logo">Web</span><span class="logo-end">Studio</span></a
+        >
 
         <ul>
-          <li><a href="./index.html">Студия</a></li>
-          <li><a href="./portfolio.html">Портфолио</a></li>
-          <li><a href="">Контакты</a></li>
-        </ul>
-
-        <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+          <li><a class="navigation" href="./index.html">Студия</a></li>
+          <li><a class="navigation" href="./portfolio.html">Портфолио</a></li>
+          <li><a class="navigation" href="">Контакты</a></li>
         </ul>
       </nav>
+
+      <ul>
+        <li>
+          <a class="navigation" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a class="navigation" href="tel:+380961111111">+38 096 111 11 11</a>
+        </li>
+      </ul>
     </header>
 
     <main>
       <!-- Hero -->
-      <section>
+      <section class="hero">
         <h1>Эффективные решения для вашего бизнеса</h1>
-        <a href="">Заказать услугу</a>
+        <a class="order-link" href="">Заказать услугу</a>
       </section>
 
       <!-- Advantages -->
@@ -142,14 +151,21 @@
     </main>
 
     <!-- footer -->
-    <footer>
-      <a href="/"> <span>Web</span>Studio</a>
-      <address>г. Киев, пр-т Леси Украинки, 26</address>
-      <address>
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <br />
-        <a href="tel:+380961111111">+38 096 111 11 11</a>
-      </address>
+    <footer class="footer-bg">
+      <div class="footer-adress-text">
+        <a class="logo-link" href="/">
+          <span class="logo">Web</span
+          ><span class="logo-end-footer">Studio</span></a
+        >
+        <address class="footer-adress">г. Киев, пр-т Леси Украинки, 26</address>
+        <address>
+          <a class="footer-link" href="mailto:info@example.com"
+            >info@example.com</a
+          >
+          <br />
+          <a class="footer-link" href="tel:+380991111111">+38 099 111 11 11</a>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
