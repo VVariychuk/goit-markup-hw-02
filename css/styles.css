@@ -90,13 +90,15 @@ ul {
   letter-spacing: 0.02em;
   color: #212121;
 }
+.navigation.contacts {
+  color: #757575;
+}
 .navigation:hover {
   color: #2196f3;
 }
 .navigation:focus {
   color: #2196f3;
 }
-
 .button {
   background: #f5f4fa;
   border-radius: 4px;
