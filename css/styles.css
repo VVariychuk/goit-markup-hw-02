@@ -108,7 +108,12 @@ ul {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: var(--primary-text-color) 1;
+  color: var(--primary-text-color);
+}
+
+.navigation.current {
+  color: var(--accent-color);
+  text-decoration: underline;
 }
 .navigation.contacts {
   color: var(--secondary-text-color);
