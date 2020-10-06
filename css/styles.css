@@ -1,3 +1,8 @@
+body {
+  font-family: Roboto;
+  font-style: normal;
+}
+
 .logo {
   color: #2196f3;
   font-family: Raleway;
@@ -47,8 +52,6 @@ h1 {
   height: 120px;
   padding-top: 200px;
   margin-left: 452px;
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
@@ -66,8 +69,6 @@ h1 {
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 30px;
@@ -83,8 +84,6 @@ ul {
 
 .navigation {
   text-decoration: none;
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -102,8 +101,6 @@ ul {
   background: #f5f4fa;
   border-radius: 4px;
   border: 0px;
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
@@ -140,8 +137,6 @@ ul {
 }
 
 .footer-adress {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
@@ -154,8 +149,6 @@ ul {
 
 .footer-link {
   text-decoration: none;
-  font-family: Roboto;
-  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
