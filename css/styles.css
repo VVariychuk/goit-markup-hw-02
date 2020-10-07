@@ -17,36 +17,39 @@
   --contacts-rgba: rgba(255, 255, 255, 0.6);
 }
 body {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.03em;
   color: var(--primary-text-color);
+}
+
+ul {
+  list-style-type: none;
 }
 
 .logo {
   color: var(--accent-color);
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
-  letter-spacing: 0.03em;
+  line-height: 1.2;
 }
 
 .logo-end {
   color: var(--primary-text-color);
-  font-family: Raleway;
-  font-weight: bold;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
-  letter-spacing: 0.03em;
+  line-height: 1.2;
 }
 .logo-end-footer {
   color: var(--wite-color);
-  font-family: Raleway;
-  font-weight: bold;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
-  letter-spacing: 0.03em;
+  line-height: 1.2;
 }
 
 .logo-link {
@@ -58,57 +61,51 @@ body {
   top: 24px;*/
 }
 .hero {
+  background: var(--primary-background-color);
   width: 1600px;
   height: 600px;
   left: 0px;
   top: 80px;
-  background: var(--primary-background-color);
 }
 h1 {
-  width: 696px;
-  height: 120px;
-  padding-top: 200px;
-  margin-left: 452px;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 60px;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
   color: var(--wite-color);
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding-top: 200px;
+  font-weight: 900;
 }
 
 .link-button {
+  background-color: var(--accent-color);
   margin-left: 700px;
-  padding-top: 15px;
+  padding-top: 10px;
   width: 200px;
   height: 50px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  background-color: var(--accent-color);
 }
 
 .order-link {
-  margin: 10px 32px;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 30px;
-  letter-spacing: 0.06em;
   color: var(--wite-color);
-}
-
-ul {
-  list-style-type: none;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  margin-top: 10px;
+  margin-left: 32px;
 }
 
 .navigation {
+  color: var(--primary-text-color);
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--primary-text-color);
 }
 
 .navigation.current {
@@ -125,14 +122,14 @@ ul {
 
 .button {
   background: var(--buttons-color);
-  border-radius: 4px;
-  border: 0px;
+  color: var(--primary-text-color);
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.6;
   text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--primary-text-color);
+  border-radius: 4px;
+  border: 0px;
 }
 
 .button:hover,
@@ -147,17 +144,16 @@ ul {
 }
 
 .footer-bg {
+  background: var(--primary-background-color);
   width: 1600px;
   height: 252px;
   left: 0px;
-  background: var(--primary-background-color);
 }
 
 .footer-adress {
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
   color: var(--wite-color);
+  font-size: 14px;
+  line-height: 1.7;
 }
 .footer-adress-text {
   padding-top: 60px;
@@ -165,10 +161,9 @@ ul {
 }
 
 .footer-link {
-  text-decoration: none;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
   color: var(--contacts-rgba);
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
 }
