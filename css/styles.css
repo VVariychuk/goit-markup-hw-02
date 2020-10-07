@@ -74,16 +74,6 @@ ul {
   padding-top: 200px;
 }
 
-/*.link-button {
-  background-color: var(--accent-color);
-  margin-left: 700px;
-  padding-top: 10px;
-  width: 200px;
-  height: 50px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-}*/
-
 .order-link {
   display: inline-block;
   background-color: var(--accent-color);
@@ -146,9 +136,6 @@ ul {
 
 .footer-bg {
   background: var(--primary-background-color);
-  /*width: 1600px;
-  height: 252px;
-  left: 0px;*/
 }
 
 .footer-adress {
