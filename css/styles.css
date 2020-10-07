@@ -28,7 +28,7 @@ body {
 ul {
   list-style-type: none;
 }
-a {
+.cards-link {
   text-decoration: none;
   color: var(--primary-background-color);
 }
