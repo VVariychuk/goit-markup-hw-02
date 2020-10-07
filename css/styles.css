@@ -67,12 +67,12 @@ a {
 .hero-title {
   color: var(--wite-color);
   font-size: 44px;
+  font-weight: 900;
   line-height: 1.36;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.06em;
   padding-top: 200px;
-  font-weight: 900;
 }
 
 /*.link-button {
@@ -147,19 +147,21 @@ a {
 
 .footer-bg {
   background: var(--primary-background-color);
-  width: 1600px;
+  /*width: 1600px;
   height: 252px;
-  left: 0px;
+  left: 0px;*/
 }
 
 .footer-adress {
   color: var(--wite-color);
   font-size: 14px;
   line-height: 1.7;
+  padding-top: 20px;
 }
 .footer-adress-text {
   line-height: 1.7;
   padding-top: 60px;
+  padding-bottom: 60px;
   padding-left: 215px;
 }
 
